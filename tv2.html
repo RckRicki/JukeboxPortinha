@@ -637,7 +637,7 @@
 
         /* ── QR ── */
         function generateQR() {
-            const indexUrl = window.location.href.replace('tv.html', 'index.html').replace('tv2.html', 'index2.html');
+            const indexUrl = window.location.href.replace('tv.html', 'index2.html').replace('tv2.html', 'index2.html');
             document.getElementById("qrcode-container").innerHTML = "";
             new QRCode(document.getElementById("qrcode-container"), {
                 text: indexUrl, width: 120, height: 120,
